@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Roba Rikita | Front-End Portfolio</title>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="/portifolioooo/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">Roba Rikita</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <!-- Hero Section / Home -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="hero-badge">Front-End Developer & UI Artist</span>
+        <h1>Crafting digital <span class="highlight">experiences</span> that inspire</h1>
+        <p class="hero-desc">Hello, I'm Roba — I build modern, responsive, and human-centered websites. With 5+ years of experience turning ideas into polished interfaces.</p>
+        <div class="btn-group">
+          <a href="#projects" class="btn btn-primary">View Projects →</a>
+          <a href="#contact" class="btn btn-outline">Let's talk</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="avatar-placeholder">
+          <div class="avatar-inner">RR</div>
+        </div>
+        <p style="margin-top: 1.2rem; font-weight: 500; color:#2c3e66;">code · design · balance</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section - large text, no emojis -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2>Technical Arsenal</h2>
+      <p class="section-subtitle">Tools & technologies I master to bring creative ideas to life.</p>
+      <div class="skills-grid">
+        <div class="skill-card"><div class="skill-name">HTML5</div></div>
+        <div class="skill-card"><div class="skill-name">CSS3 / Tailwind</div></div>
+        <div class="skill-card"><div class="skill-name">JavaScript (ES6+)</div></div>
+        <div class="skill-card"><div class="skill-name">React</div></div>
+        <div class="skill-card"><div class="skill-name">Figma</div></div>
+        <div class="skill-card"><div class="skill-name">Git & CI/CD</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section - eCommerce & Chat App -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2>Selected projects</h2>
+      <p class="section-subtitle">Real-world applications and creative experiments.</p>
+      <div class="projects-grid">
+        <!-- Project 1: eCommerce platform -->
+        <div class="project-card">
+          <div class="project-img">E-COMMERCE PLATFORM</div>
+          <div class="project-info">
+            <h3>UrbanMart</h3>
+            <p>Full-featured eCommerce frontend with product filtering, cart simulation, and responsive product grids. Modern UI with smooth interactions.</p>
+            <div class="project-tags"><span class="tag">HTML5/CSS3</span><span class="tag">Flex/Grid</span><span class="tag">JS Cart</span></div>
+            <a href="#" class="project-link">Live demo →</a>
+          </div>
+        </div>
+        <!-- Project 2: Chat App -->
+        <div class="project-card">
+          <div class="project-img">REALTIME CHAT</div>
+          <div class="project-info">
+            <h3>TalkSphere</h3>
+            <p>Minimalist chat application prototype with message threads, user avatars, and dark/light mode toggle. Focus on real-time UI feel.</p>
+            <div class="project-tags"><span class="tag">CSS variables</span><span class="tag">LocalStorage</span><span class="tag">Responsive</span></div>
+            <a href="#" class="project-link">Case study →</a>
+          </div>
+        </div>
+        <!-- Project 3: Design System -->
+        <div class="project-card">
+          <div class="project-img">DESIGN SYSTEM</div>
+          <div class="project-info">
+            <h3>Component Library</h3>
+            <p>Custom design system with reusable UI components, accessible form elements, and interactive documentation built with pure CSS.</p>
+            <div class="project-tags"><span class="tag">CSS Modules</span><span class="tag">BEM</span><span class="tag">Storybook</span></div>
+            <a href="#" class="project-link">Explore →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About + Experience -->
+  <section id="about" class="about-section">
+    <div class="container about-content">
+      <div class="about-text">
+        <h2>About me</h2>
+        <p>I'm Roba Rikita, a front-end developer with a passion for bridging design and code. Over the last 5 years, I've collaborated with startups, agencies, and global brands to craft interfaces that are both intuitive and visually compelling.</p>
+        <p>My approach blends modern CSS techniques, semantic HTML, and performance-first mindset. I believe great digital products start with empathy and end with clean, maintainable code — all while keeping accessibility at the core.</p>
+        <ul class="exp-list">
+          <li><span class="exp-year">2022 – present</span> Lead front-end developer</li>
+          <li><span class="exp-year">2024 – 2026</span> UI Engineer </li>
+          <li><span class="exp-year">2026</span> BSc in software engineering (in progress)</li>
+        </ul>
+      </div>
+      <div class="about-stats">
+        <div class="stat-number">35+</div>
+        <div class="stat-label">Projects shipped</div>
+        <div class="stat-number" style="margin-top: 1.2rem;">12</div>
+        <div class="stat-label">Global clients</div>
+        <div class="stat-number" style="margin-top: 1.2rem;">100%</div>
+        <div class="stat-label">Responsive focus</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section - Form -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="form-card">
+        <h2>Let’s connect</h2>
+        <p style="margin-bottom: 1.8rem; text-align: center; color: #334155;">Have a project in mind? Send me a message, and I'll get back to you within 24h.</p>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="name">Full name *</label>
+            <input type="text" id="name" name="name" required placeholder="Roba Rikita">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address *</label>
+            <input type="email" id="email" name="email" required placeholder="robarikita@gmail.com">
+          </div>
+          <div class="form-group">
+            <label for="project">Project idea / message *</label>
+            <textarea id="project" name="message" rows="5" required placeholder="Tell me about your eCommerce platform, chat app, or any collaboration..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-submit">Send message →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© 2025 Alex Rivera — Crafted with pure HTML & CSS. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
